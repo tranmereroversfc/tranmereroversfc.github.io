@@ -57,11 +57,11 @@ img {
 }
 
 .stadium-img {
-    max-width: 600px; /* Stadium image won't exceed 600px */
+    max-width: 400px; /* Stadium image won't exceed 600px */
 }
 
 .vintage-gear-img {
-    max-width: 600px; /* Vintage jersey image is constrained to 300px */
+    max-width: 400px; /* Vintage jersey image is constrained to 300px */
 }
 
 .affiliate-link {
