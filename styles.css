@@ -22,6 +22,11 @@ h1 {
     font-size: 2.5rem;
 }
 
+.club-logo {
+    max-width: 200px;
+    margin-top: 10px;
+}
+
 section {
     margin: 20px 0;
     padding: 15px;
@@ -40,6 +45,13 @@ p {
     font-size: 1.1rem;
     color: #333;
     line-height: 1.8;
+}
+
+.stadium-img, .vintage-gear-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
 }
 
 .affiliate-link {
