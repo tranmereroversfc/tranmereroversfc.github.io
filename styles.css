@@ -25,6 +25,7 @@ h1 {
 .club-logo {
     max-width: 200px;
     margin-top: 10px;
+    height: auto;
 }
 
 section {
@@ -47,11 +48,20 @@ p {
     line-height: 1.8;
 }
 
-.stadium-img, .vintage-gear-img {
+/* Adjusted image size constraints */
+img {
+    max-width: 100%; 
+    height: auto; 
     display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 15px 0;
+    margin: 0 auto 20px;
+}
+
+.stadium-img {
+    max-width: 600px; /* Stadium image won't exceed 600px */
+}
+
+.vintage-gear-img {
+    max-width: 300px; /* Vintage jersey image is constrained to 300px */
 }
 
 .affiliate-link {
